@@ -1,0 +1,78 @@
+Introduction To HTML
+
+Structure Vs Presentation
+
+HTML Structure-Head,Body and HTML Version
+
+HTML Comments
+
+Page Information-title,meta,link,style, script 
+
+ HTML Tags and Attributes
+
+ First Web page - Hello World
+
+ Quiz
+
+HTML WebPAge:
+1. Content - WHATEVER IS SEEN ON THE WEBSITE(text, audio,video)
+2. Structure - the html code behind the content
+3. PResentation- the beautification done to the content.
+
+
+STRUCTURE : HEAD+BODY
+<!DOCTYPE html> ------------> telling to browser that the file is a HTML FILE
+<html> -------------->Opening Tag
+<head> -------------->will not be displayed in the content area
+<meta charset ='UTF-8'>--------> RULES OF TEXTS THAT IS ACCEPTED IN A WEB PAGE
+  (TAG) (ATTRIBUTE) (VALUE)
+<title>Web designing</title>
+<link>------------------> links the js,css,jq files and other libraries
+<style>------------------>css code
+<script>----------------> javascript code
+</head>
+<body background="blue"> ------------->will be displayed in the content area
+<!-- i like web designing --> --------------->html comment
+</body>
+</html>--------------->Closing tag
+
+Comments:
+java //
+python #
+css /*  */
+html <!--   -->
+
+
+Body:
+<p  color= 'red' style='text-transform: uppercase; font-weight:bold'> This is a paragraph </p>
+OP ATTRIBUTE           CSS   PROPERTY: VALUE        CONTENT            CT
+
+Opening tag <p>
+Closing tag   </p>
+Attribute      color,style
+values           red,uppercase
+css property text-transform
+
+types of css: inline, internal, external
+
+headers ---- h1....h6
+h1 big size
+h6 smallest size
+<h1> heading 1</h1>
+<h3>heading 3</h3>
+<h6>heading 6</h6>
+
+
+
+
+
+
+
+
+               
+
+
+
+
+
+

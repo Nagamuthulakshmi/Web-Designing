@@ -1,0 +1,56 @@
+WWW -> World Wide Web
+Goldmine - interconnected webpages.
+web page -> consists of text, graphics, images, audio, video in their own extensions
+hypertext - text written in a webpage in clickable or non clickable format.
+hyperlink - jumping from one webpage to other.
+
+HTML - hYPERTEXT MARKUP LANGUAGE
+
+Client - who is benificiery of all the information (browser in a computer)
+Server - who provides information
+
+DNS - Domain Name Server
+Domain name -> IP address 
+IP Adres -> Domain name
+
+www.google.com --> 123.4.3.5
+
+Domain name-> for humans to understand
+ip adress -> for server purposes
+
+Types:
+LDNS
+RDNS
+TLDNS
+
+www.abcd.edu
+|
+LDNS - forwards the adress to nearby dns system
+|
+RDNS - domain suffix-> ena domain oh ->transfers the adress to that list of domain
+|
+TLDNS - CONTAINS A LIST OF IP AND ITS DOMAIN NAME
+|
+ip address
+
+
+3 WAYS TO ACCESS DEVELOPER TOOLS
+1. ctrl+shift+i
+2. f12
+3. right click+inspect
+
+HTTP - Hyper Text Transfer Protocol
+https://www.google.com
+
+protocol- set of rules and regulations generated to transfer the text in secured way.
+
+https: secure   http: not so secure like https
+Mails transfer ----->   ftp -- file transfer protocol
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+Document structure - Div tag, Span tag
+Format tag - bold, strong, italics, em, ins, underline, del, sub, sup
+image tag
+anchor tag
+List - Ordered, unordered, defination
+Table structure
+
