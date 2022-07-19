@@ -2,6 +2,10 @@ Document structure - Div tag, Span tag
 Format tag - bold, strong, italics, em, ins, underline, del, sub, sup
 image tag
 anchor tag
-List - Ordered, unordered, defination
+List<li> - Ordered<ol>, unordered<ul>, definition<dl>
 Table structure
 
+div & Span tags for styling.
+ol - 1,A,a,I,i
+ul - disc,circle, square,none
+dl - dt (defination title), dd(definition data)
