@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web designing</title>
-    <style>
+    <style> /*Internal CSS*/
             .mydiv{
 
                 color:red;
@@ -13,6 +13,7 @@
             }
 
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    
@@ -80,7 +81,44 @@
 </tbody>
 </table>
 
+<table border="2" align="center">
+<thead align="center">
+<th>SNO</th>
+<th colspan="3">NAME</th>
+<th>DOB</th>
+</thead>
+<tbody align="center">
+<tr>
+    <td rowspan="3">1</td>
+    <td>A</td>
+    <td>20-1-2020</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>B</td>
+    <td>20-1-1020</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>B</td>
+    <td>20-1-1020</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>B</td>
+    <td>20-1-1020</td>
+</tr>
+</tbody>
+</table>
+
+<br><br><br><br><br>
+
+
+
+
 <!--Forms-->
+<fieldset>
+    <legend>Registration Form</legend>
 <form action="Day 2.html" method="post" align="center">
 
     <label for="nameid">First name</label>
@@ -110,14 +148,27 @@
 <input type="checkbox" name="PG" value="pg">
 <label>PG</label><br>
 <br><br><br>
+<textarea name="Comment" id="box" cols="20" rows="30"></textarea>
 <input type="submit"><br>
 <input type="button" value="Do Nothing"><br>
 <input type="reset"><br>
 </form>
+</fieldset>
 
+<iframe src="https://www.itvedant.com/" frameborder="5" width="400" height="400"></iframe>
+<iframe src="https://www.amazon.in/" width="600" height="800" frameborder="5" ></iframe>
 
+<audio controls autoplay muted>
+    <source src="sample_a.mp3" type="audio/mp3"/>
+    Audio is not supported
+</audio>
 
+<video controls width="300" height="200" loop autoplay muted>
+    <source src="sample_v.mp4" type="video/mp4"/>
+</video>
 
+<p style="color:blue" id="p1"> Hello World</p> <!--Inline CSS-->
+<p class="p2">Rejkshjsc</p>
 
 </body>
 </html>
