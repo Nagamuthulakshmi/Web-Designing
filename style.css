@@ -7,5 +7,12 @@ selector{
 
 .p2{
     background-color: aqua;
+   
     border: 5px;
 }
+img{
+    max-width:100%;
+    height:auto;
+ }
+
+
