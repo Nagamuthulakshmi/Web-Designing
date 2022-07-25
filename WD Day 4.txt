@@ -1,0 +1,12 @@
+CSS Selectors
+1. Universal  *
+2. Id #
+3. Class .
+4. Child >
+5. Group
+6. Tag
+7. Pseudo
+8. Attribute
+9. nth- child
+10. Adjacent
+11. Sibling 

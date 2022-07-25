@@ -9,3 +9,38 @@ div & Span tags for styling.
 ol - 1,A,a,I,i
 ul - disc,circle, square,none
 dl - dt (defination title), dd(definition data)
+
+<p style= color=>Hello world</p>
+OT attribute    content           CT
+-----------ELEMENT----------------
+
+1. SEMANTIC ELEMENT - ELEMENT WHICH IS RESPONSIBLE FOR CONTENTS
+Eg: Para tag
+
+2. NON SEMANTIC ELEMENT -ELEMENT WHICH IS NOT RESPONSIBLE FOR CONTENTS.
+Eg: br, hr, div,span
+
+CSS:
+Inline
+Internal
+External
+
+Types of selectors - 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
