@@ -2,11 +2,12 @@ CSS Selectors
 1. Universal  *
 2. Id #
 3. Class .
-4. Child >
-5. Group
-6. Tag
-7. Pseudo
-8. Attribute
-9. nth- child
-10. Adjacent
-11. Sibling 
+4. Child sel1>sel2
+5. Group ,
+6. Tag slector{}
+7. Pseudo 1):hover 2) :link  3) :active  4) :visited 5) :focus
+	Selector:pseudo_classname
+8. Attribute  [attribute^=value], [attribute$='value'], [attribute*='value'], selector[attribute='value'] or selector[]
+9. nth- child selector:nth-child(number), selector:first-child, selector:last-child
+10. Adjacent s1+s2{}
+11. Sibling s1~s2{}
