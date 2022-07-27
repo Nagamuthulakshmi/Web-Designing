@@ -7,12 +7,14 @@ selector{
 
 .p2{
     background-color: aqua;
-   
+   border-width: 0cm;
     border: 5px;
 }
 img{
     max-width:100%;
     height:auto;
  }
+
+
 
 

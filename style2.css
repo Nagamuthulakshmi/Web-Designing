@@ -1,0 +1,90 @@
+/* Universal Selector */
+*{
+    font-size: 30px;
+}
+
+/* Tag Selector */
+h1{
+    font-style: italic;
+}
+
+/* Id Selector */
+#h1id{
+    background-color: blueviolet;
+}
+
+/* class Selector */
+.same{
+    text-transform: uppercase;
+}
+
+/* Group Selector */
+.same,h2,h3,#h2id{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* child Selector */
+span>p{
+    color: brown;
+}
+
+
+/*Sibling Selector*/
+div~p{
+    text-align: center;
+}
+
+/*Adjacent Sibiling*/
+.div1+p{
+    font-weight: bold;
+}
+.div1~p{
+color:red;
+}
+.div2~p{
+color:yellow;
+}
+.div1~p,.div2~p{
+    text-transform: uppercase;
+}
+span>p:hover{
+    font-size:40px;
+    color:red !important;
+}
+
+a:link{
+    color:aqua;
+}
+
+a:visited{
+    color: darkgreen;
+}
+a:active{
+    background-color:indigo;
+}
+input:focus{
+   color: blue;
+   width:50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
