@@ -24,7 +24,7 @@ h1{
 }
 
 /* child Selector */
-span>p{
+div>p{
     color: brown;
 }
 
@@ -47,11 +47,12 @@ color:yellow;
 .div1~p,.div2~p{
     text-transform: uppercase;
 }
-span>p:hover{
+div>p:hover{
     font-size:40px;
     color:red !important;
 }
 
+/*pseudo Selector*/
 a:link{
     color:aqua;
 }
@@ -66,6 +67,49 @@ input:focus{
    color: blue;
    width:50%;
 }
+/*Attribute Selector */
+div[class]{
+    opacity: 0.7;
+}
+
+h5[id="h5id"]{
+    text-transform: uppercase;
+}
+
+div[class^="This"]{
+   background-color: coral; 
+}
+
+div[class$="This"]{
+    background-color: coral; 
+ }
+
+ div[class*="This"]{
+    background-color: coral; 
+ }
+
+ /*nth child Selector */
+p:first-child{
+    color:red;
+}
+p:last-child{
+    color:red;
+}
+p:nth-child(2n){
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
