@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.write("<h1>Heading</h1>");
+        //Variable - Container which holds data.
+        //Identifier - Variable name (Not be a keyword, should start with letters or $ or _,case sensitive)
+        //keyword- words that language understands Dictionary
+        var _$,a1; //declaring
+        var a;
+        Array;
+        var array;
+        var Z = 5;
+        var z = 10;
+        console.log(z);
+        console.log(array);
+        //alert(a);//undefined datatype
+        console.log(a);//Prints the content in developer tool
+        //Data type of a - "Undefined"
+        //Datatypes 
+        //Primitive[Number integer,String - Combination of num char symbols,Boolean-T/F], No Char, Float, Int
+        //Trivial [null, undefined],
+        //Composite[Object - Real world thing which has property(Attribute) and behaviour(Function/Method), Arrays - Collections of Variables]
+        var b = 2;//initialising - passing value to a variable 
+        //var b is int
+        //DYNAMICALLY TYPED PROGRAMMING - because the var assigns the datatype based on the value initialised.
+        //LOOSELY TYPED/ NOT STRICTLY TYPED PROGRAMMING - FREE TO give any value to a variable, no strictness in assigning datatype.
+        c = "2"; // it will accept c as a variable -  not demanding us to type the var keyword
+        var d=null;
+        var e="Hello Welcome";
+        var f = 'Hi Hello';
+        var g = true; // g is boolean
+        g=5;// g is integer
+        f=g;
+        var ab=5;
+        var bc=10;
+        document.write(3**5);
+        //Pre Increment ++3, Post Increment 3++
+        var b=3;
+        var a = 3;
+        var c=3;
+       /* b= (a++) + (++c);//3+4 - a=3
+        alert(a);//a=4 - Post Incre
+        alert(b);//7
+        alert(c);//c=4 - Pre Incre
+        var e=3;
+        e= (e++) - (++e);//3  - 5 = -2
+        alert(e); */
+        b= (a--) + (--c);//3 + 2 = 5
+       // alert(a);// a=2
+       // alert(b);// b = 5
+      //  alert(c);//c=2
+        var e=3;
+        e= (e--) + (--e);//3 + 1 = 4
+       // alert(e);//e=4
+        var x=1;
+        x/=1; // x=x+1
+        //alert("The Assignment operator %= "+x);
+
+        if(x==1){
+           document.write("<br>True"); 
+        }
+        else{
+            document.write("<br>False"); 
+        }
+
+        if((x==1) ? document.write("<br>True") : document.write("<br>False"));
+        var naga=3.3;//char X //float
+        document.write(typeof naga);
+
+        // 0 1 - Bit -> 8 Bit = 1 Byte - Units of Memory - Machine Language/ Binary Language
+        //2 bits - 00 - 0,01- 1,10 - 2,11 - 3, 3bits - 000 0,001 1,010 2,011 3,100 4,101,110,111 X64 = 64*0 to 1*64 = 64*64 
+       // 1 & 4 = 0 000 & 100 = 000
+       //~7 = ~111 = 000 = 0 
+ /*      
+                &       |       ~       ^
+0   0           0       0       0->1    0
+0   1           0       1       1->0    1
+1   0           0       1               1
+1   1           1       1               0  */
+
+/*0   0   0
+1   0   0  
+------------
+0   0   0   ----->0 */
+//Simple If
+var x=4;
+if(x==0 || x<5){
+   // alert("yes");
+}
+
+//Arithmetic Operators, Logical Operators, Comparative, Bitwise, Assignment, Type
+
+/*CONTROL STATEMENTS:(Break, Continue)
+1. Conditions - if (Simple If, If Else, Else If Ladder, Nested If), Switch, 
+2. Loops - For, While, Do While
+*/
+
+/*Odd or Even - ifElse
+
+var abc = "7";
+document.write("<br>"+6+4+abc+3+78983);
+
+var Num = prompt("Enter a number");
+document.write("<br> The Input number is "+Num);
+if(Num%2 === 0){
+document.write("The number "+Num+" is Even");
+}
+else{
+    document.write("The number "+Num+" is Odd");
+   
+} */
+
+/*Positive or Negative or Neutral  - Else if Ladder
+
+var Num = prompt("Enter the Number");
+
+if(Num == 0){
+    document.write("The number "+Num+" is Neutral");
+}
+else if(Num <=-1){
+    document.write("The number "+Num+" is Negative");
+}
+else if(Num>=1){
+    document.write("The number "+Num+" is Positive");
+} */
+
+//Positve and Even - Nested If Else
+var Num = prompt("Enter the Number");
+if(Num%2==0 && Num>0){
+    document.write("The number "+Num+" is Positive and eve");
+}
+else{
+    document.write("The number "+Num+" is not Positive and not even");
+}
+
+if(Num>0){
+    if(Num%2==0){
+        document.write("The number "+Num+" is Positive and even"); //4
+    }
+    else{
+        document.write("The number "+Num+" is Positive and Odd"); //3
+    }
+}
+else{
+    if(Num%2==0){
+        document.write("The number "+Num+" is Negative and even");//-4
+    }
+    else{
+        document.write("The number "+Num+" is Negative and Odd");//-3
+    }
+}
+
+
+
+
+
+
+    </script>
+    
+</head>
+<body>
+    
+
+    
+</body>
+</html>
