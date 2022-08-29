@@ -129,7 +129,7 @@ else if(Num>=1){
 } */
 
 //Positve and Even - Nested If Else
-var Num = prompt("Enter the Number");
+var Num = 8;
 if(Num%2==0 && Num>0){
     document.write("The number "+Num+" is Positive and eve");
 }
@@ -154,17 +154,244 @@ else{
     }
 }
 
+/*Switch Statements - many choices 
+1 - Sunday ,2 -monday */
+
+var choice = 3;
+
+switch(choice){
+    case "1":
+        document.write("Sunday");
+        break;
+    case "2":
+        document.write("Monday");
+        break;
+    case "3":
+        document.write("Tuesday");
+        break;
+    case "4":
+        document.write("Wednesday");
+        break;
+    case "5":
+        document.write("Thursday");
+        break;
+    case "6":
+        document.write("Friday");
+        break;
+    case "7":
+        document.write("Saturday");
+        break;
+    default: //default statement should have a break
+        document.write("Please enter the number within 1 to 7");
+    
+    
+}
+
+/*Loops - for,while,do while
+//for
+for(initialise;condition;increment){
+    //Statements;
+}*/
+
+/*for(var z=0;z<=60;z++){
+    document.write(z+"<br>");
+}*/
+
+//Multiples of 5
+/*for(var z=5;z<=60;z=z+5){
+    document.write(z+"<br>");
+
+}*/
+//While and do while
+var x = 61;
+while(x<=60){  
+   
+    document.write("In while loop <br>"+x+"<br>");
+    x=x+5;
+}
+
+var y = 61;
+do{
+    document.write("In Do while loop <br>"+y+"<br>");
+    y=y+5;//65
+    //alert(y);
+}while(y<=60);//false ESC
+
+/*Functions - set of statements that do a specific work
+1. Initialise - creating a func with function keyword
+2. Define - write set of relevant statements
+3. Call - Invite the function to perform the task
+
+-Without parameters
+-with parameters
+-with return keyword
+*/
+var num3 = 0; // global variable num3 = 0
+
+function add(num1,num2){
+    var xyz;
+   num3=5; // function kulla num 3 =5
+     num3 = num1+num2;//num3=17
+     
+    return num3;
+   
+}
+
+//num3 =0
+add(6,5);
+console.log(num3);//0
+console.log("After Return"+num3); //after retrun 0
+var r1 =0,r2,r3,r4;
+//r1=0
+r1=r1+num3; //0+0
+console.log(r1); //0
+r1=add(9,8);//num3 = r1 = 17
+r1=r1+num3;//17+17 = 34
+console.log(r1); //34
+
+r2=add(3,2);
+console.log(r2);
+r3=add(7,4);
+r4=add(0,-1);
+r1=r1*r2*r3*r4;
+console.log(r1);
+
+//var subtract = function(n1,n2,n3)  ======>>>>> function subtract(n1,n2,n3)
+
+//Anonymous Function - Function without a name
+var subtract = function(n1,n2,n3){
+var res = n1-n2-n3;
+console.log(res);
+}
+
+subtract(10,3,2);
+
+//var subtract = function(n1,n2,n3) ========>>>>>>> var subtract = (n1,n2,n3)  =>
+
+//Arrow Function -  Short hand notation of Anonymous function
+var subtract2 = (nu1,nu2) => { 
+    var nu3 = nu1*nu2; 
+    console.log(nu3);
+ }
+
+ subtract2(10,3);
+
+//Array is a collection of homogeneous (Similar datatype) or heterogeneous data (different datatype)
 
 
+
+var array1 = [1,2,3,4,5,6,4,3]; 
+//index- Position number
+//Length - Total nunber of values
+console.log(array1[4]);
+ var array2 = [];
+ var array3 = new Array();
+ console.log(array2);
+ console.log(array3);
+
+ /*for(var i=0;i<5;i++){
+    array2[i] = parseInt(prompt("Enter Value "+i));
+ }
+console.log(array2);*/
+
+var r =6;
+
+
+
+for(var i=0;i<array1.length;i++){
+    if(r == array1[i]){
+        console.log("The number is present in position "+i);
+    }
+    else{
+        continue;
+        console.log("Match not found Try again");
+    }
+}
+
+/*
+var abc="";
+for(var i=0;i<array1.length;i++){
+   
+ abc = abc+array1[i];
+
+}
+
+console.log(abc);
+*/
+
+//DOM - Document Object Model - To utilize and extract the contents from html  page and allows us to do further manipulation
 
 
 
     </script>
+
+    
     
 </head>
 <body>
-    
+    <p id="id2"></p>
+    <input type="text" id="id1">
+    <input type="radio" id="M" value="MALE">
+    <input type="radio" id="G" value="FEMALE">
+    <input type="submit" onclick="text()">
+    <select name="" id="state">
+        <option value="TamilNadu">Tamilnaduu</option>
+        <option value="Kerela">Kerela</option>
+    </select>
+    <p>1</p>
+    <p>2</p>
+    <p>3dkjdij</p>
+    <p>4</p>
 
+    <h1 class="a1">Hi</h1>
+    <h2 class="a1">Hello</h2>
     
+    <script>
+        function text(){
+        var textboxV;
+        textboxV = document.getElementById("id1").value;
+        console.log(textboxV);
+        console.log(document.getElementById("id2").innerText);
+        var rd1 = document.getElementById("M");
+        var rd2 = document.getElementById("G");
+        console.log(rd1.checked+""+rd2.checked);
+        if(rd1.checked == true && rd2.checked == true){
+            console.log("Both are checked");
+        }
+        else if(rd2.checked == true){
+            console.log("Female is selected");
+        }
+        else if(rd1.checked == true){
+            console.log("Male is selected");
+        }
+        else{
+            console.log("Please Choose Gender to submit");
+        }
+        var s = document.getElementById("state");
+        console.log(s.options[s.selectedIndex].text);
+    
+        var p = document.getElementsByTagName("p");
+        console.log(p[2]);
+        for(var i=0;i<p.length;i++){
+        p[i].style.fontSize=35;
+    }
+    var a1= document.getElementsByClassName("a1");
+    for(var i=0;i<a1.length;i++){
+        a1[i].style.fontStyle="italic";
+    }
+        
+    
+    }
+    </script>
+<img id="img1" onmouseover="fn1()" onmouseout="fn2()" src="github.png" alt="">
+    <script>
+function fn1(){
+    document.getElementById("img1").src = "download.png";
+}
+function fn2(){
+    document.getElementById("img1").src = "github.png";
+}
+
+    </script>
 </body>
 </html>
